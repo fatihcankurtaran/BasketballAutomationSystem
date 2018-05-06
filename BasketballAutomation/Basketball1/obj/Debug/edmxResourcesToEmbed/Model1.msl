@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BasketModelStoreContainer" CdmEntityContainer="BasketEntities">
+    <FunctionImportMapping FunctionImportName="sp_alterdiagram" FunctionName="BasketModel.Store.sp_alterdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_creatediagram" FunctionName="BasketModel.Store.sp_creatediagram" />
+    <FunctionImportMapping FunctionImportName="sp_dropdiagram" FunctionName="BasketModel.Store.sp_dropdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_helpdiagramdefinition" FunctionName="BasketModel.Store.sp_helpdiagramdefinition">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="BasketModel.sp_helpdiagramdefinition_Result">
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_helpdiagrams" FunctionName="BasketModel.Store.sp_helpdiagrams">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="BasketModel.sp_helpdiagrams_Result">
+          <ScalarProperty Name="Database" ColumnName="Database" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Owner" ColumnName="Owner" />
+          <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_renamediagram" FunctionName="BasketModel.Store.sp_renamediagram" />
+    <FunctionImportMapping FunctionImportName="sp_upgraddiagrams" FunctionName="BasketModel.Store.sp_upgraddiagrams" />
+    <EntitySetMapping Name="news">
+      <EntityTypeMapping TypeName="BasketModel.news">
+        <MappingFragment StoreEntitySet="news">
+          <ScalarProperty Name="add_date" ColumnName="add_date" />
+          <ScalarProperty Name="img_name" ColumnName="img_name" />
+          <ScalarProperty Name="content" ColumnName="content" />
+          <ScalarProperty Name="authoruname" ColumnName="authoruname" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="new_id" ColumnName="new_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="requsers">
+      <EntityTypeMapping TypeName="BasketModel.requser">
+        <MappingFragment StoreEntitySet="requser">
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="pword" ColumnName="pword" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Surname" ColumnName="Surname" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="BasketModel.sysdiagram">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="definition" ColumnName="definition" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="teams">
+      <EntityTypeMapping TypeName="BasketModel.team">
+        <MappingFragment StoreEntitySet="team">
+          <ScalarProperty Name="year" ColumnName="year" />
+          <ScalarProperty Name="teamflag" ColumnName="teamflag" />
+          <ScalarProperty Name="tleaderID" ColumnName="tleaderID" />
+          <ScalarProperty Name="tphone" ColumnName="tphone" />
+          <ScalarProperty Name="taddress" ColumnName="taddress" />
+          <ScalarProperty Name="team_name" ColumnName="team_name" />
+          <ScalarProperty Name="team_id" ColumnName="team_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Matches">
+      <EntityTypeMapping TypeName="BasketModel.Match">
+        <MappingFragment StoreEntitySet="Matches">
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="score" ColumnName="score" />
+          <ScalarProperty Name="Team2" ColumnName="Team2" />
+          <ScalarProperty Name="Team1" ColumnName="Team1" />
+          <ScalarProperty Name="year" ColumnName="year" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="players">
+      <EntityTypeMapping TypeName="BasketModel.player">
+        <MappingFragment StoreEntitySet="player">
+          <ScalarProperty Name="picture" ColumnName="picture" />
+          <ScalarProperty Name="age" ColumnName="age" />
+          <ScalarProperty Name="team_id" ColumnName="team_id" />
+          <ScalarProperty Name="Surname" ColumnName="Surname" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="playerid" ColumnName="playerid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

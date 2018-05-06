@@ -1,0 +1,23 @@
+C:\Users\Fatih\Documents\Visual Studio 2017\Projects\Basketball1\Basketball1\obj\Debug\Basketball1.csprojResolveAssemblyReference.cache
+C:\Users\Fatih\Documents\Visual Studio 2017\Projects\Basketball1\Basketball1\obj\Debug\Basketball1.csproj.CoreCompileInputs.cache
+C:\Users\Fatih\Documents\Visual Studio 2017\Projects\Basketball1\Basketball1\bin\Basketball1.dll.config
+C:\Users\Fatih\Documents\Visual Studio 2017\Projects\Basketball1\Basketball1\bin\Basketball1.dll
+C:\Users\Fatih\Documents\Visual Studio 2017\Projects\Basketball1\Basketball1\bin\Basketball1.pdb
+C:\Users\Fatih\Documents\Visual Studio 2017\Projects\Basketball1\Basketball1\obj\Debug\Basketball1.dll
+C:\Users\Fatih\Documents\Visual Studio 2017\Projects\Basketball1\Basketball1\obj\Debug\Basketball1.pdb
+C:\Users\Fatih\Documents\Visual Studio 2017\Projects\Basketball1\Basketball1\bin\EntityFramework.dll
+C:\Users\Fatih\Documents\Visual Studio 2017\Projects\Basketball1\Basketball1\bin\EntityFramework.SqlServer.dll
+C:\Users\Fatih\Documents\Visual Studio 2017\Projects\Basketball1\Basketball1\bin\EntityFramework.xml
+C:\Users\Fatih\Documents\Visual Studio 2017\Projects\Basketball1\Basketball1\bin\EntityFramework.SqlServer.xml
+G:\Yeni klasör\Fatih_Cankurtaran_1401020045\BasketballAutomation\Basketball1\bin\Basketball1.dll.config
+G:\Yeni klasör\Fatih_Cankurtaran_1401020045\BasketballAutomation\Basketball1\bin\Basketball1.dll
+G:\Yeni klasör\Fatih_Cankurtaran_1401020045\BasketballAutomation\Basketball1\bin\Basketball1.pdb
+G:\Yeni klasör\Fatih_Cankurtaran_1401020045\BasketballAutomation\Basketball1\bin\EntityFramework.dll
+G:\Yeni klasör\Fatih_Cankurtaran_1401020045\BasketballAutomation\Basketball1\bin\EntityFramework.SqlServer.dll
+G:\Yeni klasör\Fatih_Cankurtaran_1401020045\BasketballAutomation\Basketball1\bin\EntityFramework.xml
+G:\Yeni klasör\Fatih_Cankurtaran_1401020045\BasketballAutomation\Basketball1\bin\EntityFramework.SqlServer.xml
+G:\Yeni klasör\Fatih_Cankurtaran_1401020045\BasketballAutomation\Basketball1\obj\Debug\Basketball1.csprojResolveAssemblyReference.cache
+G:\Yeni klasör\Fatih_Cankurtaran_1401020045\BasketballAutomation\Basketball1\obj\Debug\Basketball1.csproj.CoreCompileInputs.cache
+G:\Yeni klasör\Fatih_Cankurtaran_1401020045\BasketballAutomation\Basketball1\obj\Debug\Basketball1.csproj.CopyComplete
+G:\Yeni klasör\Fatih_Cankurtaran_1401020045\BasketballAutomation\Basketball1\obj\Debug\Basketball1.dll
+G:\Yeni klasör\Fatih_Cankurtaran_1401020045\BasketballAutomation\Basketball1\obj\Debug\Basketball1.pdb
